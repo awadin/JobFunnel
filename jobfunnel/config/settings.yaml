@@ -16,17 +16,27 @@ providers:
 # filters
 search_terms:
   region:
-    province: 'ON'
-    city:     'waterloo'
-    domain:   'ca'
-    radius:   25
+    province: 'IL'
+    city:     'chicago'
+    domain:   'USA'
+    radius:   50
 
   keywords:
     - 'Python'
+    - 'software'
+    - 'front end'
+    - 'front-end'
+    - 'back end'
+    - 'back-end'
+    - 'full stack'
+    - 'developer'
+    - 'java'
+    - 'html'
+    - 'javascript'
 
 # black-listed company names
 black_list:
-  - 'Infox Consulting'
+  - ''
 
 # logging level options are: critical, error, warning, info, debug, notset
 log_level: 'info'
